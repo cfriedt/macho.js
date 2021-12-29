@@ -1,0 +1,20 @@
+.machofile_table
+{
+    table-layout: fixed;
+}
+
+.machofile_offsets
+{
+    font-family: monospace;
+}
+
+.machofile_contents
+{
+    font-family: monospace;
+    width: 40ch;
+}
+
+.machofile_ascii
+{
+    font-family: monospace;
+}

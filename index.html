@@ -1,0 +1,60 @@
+<!-- Copyright (c) 2021 Friedt Professional Engineering Services, Inc -->
+<!-- SPDX-License-Identifier: MIT -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>MachO.js</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="A Mach-O Binary Analysis Tool">
+    <meta name="author" content="Me">
+    <meta property="og:title" content="MachO.js">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:8000">
+    <meta property="og:description" content="A Mach-O Binary Analysis Tool.">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <table class="machofile_table">
+        <tr>
+            <td>
+                <button type="button" id="machofile_prev">Prev</button>
+            </td>
+            <td>
+                <div id="machofile_name"></div>
+            </td>
+            <td>
+                <button type="button" id="machofile_next">Next</button>
+            </td>
+            <td></td>
+            </tr>
+        <tr valign="top">
+            <td>
+                <div class="machofile_offsets" id="machofile_offsets"></div>
+            </td>
+            <td>
+                <div class="machofile_contents" id="machofile_contents"></div>
+            </td>
+            <td>
+                <div class="machofile_ascii" id="machofile_ascii"></div>
+            </td>
+            <td>
+                <div class="machofile_hover" id="machofile_hover"></div>
+            </td>
+        </tr>
+    </table>
+    <script src="/js/macho.js"></script>
+    <script src="/js/view.js"></script>
+</body>
+
+</html>
